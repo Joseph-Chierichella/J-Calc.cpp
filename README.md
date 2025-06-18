@@ -17,7 +17,7 @@ This project can be run on both **Windows** and **Linux**. Follow the appropriat
 
 2.  **Clone this repository:**
     ```cmd
-    git clone [https://github.com/Joseph-Chierichella/J-Calc.cpp](https://github.com/Joseph-Chierichella/J-Calc.cpp)
+    git clone https://github.com/Joseph-Chierichella/J-Calc.cpp.git
     cd J-Calc.cpp\script
     ```
 
@@ -39,7 +39,7 @@ This project can be run on both **Windows** and **Linux**. Follow the appropriat
 
 2.  **Clone this repository:**
     ```bash
-    git clone [https://github.com/Joseph-Chierichella/J-Calc.cpp](https://github.com/Joseph-Chierichella/J-Calc.cpp)
+    git clone https://github.com/Joseph-Chierichella/J-Calc.cpp.git
     cd J-Calc.cpp/script
     ```
 
