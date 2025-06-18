@@ -9,7 +9,7 @@ This is how a command should go using our tool.
 mode 0 will quit the program.
 ```jcalc
 jcalc:~$ 0
-Quiting Program!
+     Quiting Program!
 ```
 ### 1
 mode 1 will run a command on your system.
