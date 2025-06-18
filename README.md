@@ -1,10 +1,30 @@
 # J-Calc.cpp
 
 ## 📖 Description
+This is a small project that is a command line calculator that can run commands on your system, aswell as doing simple math.
 ## 🚀 Usage
+This is how a command should go using our tool.
+<mode> <command>
+### 0
+mode 0 will quit the program.
+```jcalc
+jcalc:~$ 0
+     Quiting Program!
+```
+### 1
+mode 1 will run a command on your system.
+```jcalc
+jcalc:~$ 1 cls
+```
+## 2
+mode 2 will do math between two numbers.
+```jcalc
+jcalc:~$ 2 5 + 5
+     10
+```
 ## 🛠️ Installation
 
-This project can be run on both **Windows** and **Linux**. Follow the appropriate steps for your system below.
+This project is meant for Windows! Anything else may not work properly!
 
 ---
 
@@ -17,7 +37,7 @@ This project can be run on both **Windows** and **Linux**. Follow the appropriat
 
 2.  **Clone this repository:**
     ```cmd
-    git clone [https://github.com/Joseph-Chierichella/J-Calc.cpp](https://github.com/Joseph-Chierichella/J-Calc.cpp)
+    git clone https://github.com/Joseph-Chierichella/J-Calc.cpp.git
     cd J-Calc.cpp\script
     ```
 
@@ -28,23 +48,3 @@ This project can be run on both **Windows** and **Linux**. Follow the appropriat
     ```
 
 ---
-
-### 🐧 Linux (Terminal)
-
-1.  **Install `g++`:**
-    ```bash
-    sudo apt install g++
-    ```
-    *Note: This command is primarily for Debian/Ubuntu-based systems. If you're on a different distribution (like Fedora, Arch, etc.), you might need a different command (e.g., `sudo dnf install gcc-c++` or `sudo pacman -S gcc`).*
-
-2.  **Clone this repository:**
-    ```bash
-    git clone [https://github.com/Joseph-Chierichella/J-Calc.cpp](https://github.com/Joseph-Chierichella/J-Calc.cpp)
-    cd J-Calc.cpp/script
-    ```
-
-3.  **Compile and Run:**
-    ```bash
-    g++ J-Calc.cpp -o J-Calc
-    ./J-Calc
-    ```
