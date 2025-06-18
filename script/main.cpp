@@ -40,7 +40,7 @@ int main()
 
 		if (*pmode == 0)
 		{
-			std::cout << "Quiting Program!\n";
+			std::cout << findent << "Quiting Program!\n";
 			std::this_thread::sleep_for(std::chrono::seconds(1));
 			clear_terminal(*pstatus);
 			status++;
