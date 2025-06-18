@@ -21,27 +21,30 @@ This project can be run on both **Windows** and **Linux**. Follow the appropriat
     cd J-Calc.cpp\script
     ```
 
+3.  **Compile and Run:**
+    ```cmd
+    g++ J-Calc.cpp -o J-Calc
+    J-Calc.exe
+    ```
+
 ---
 
 ### 🐧 Linux (Terminal)
 
 1.  **Install `g++`:**
-    * On Debian/Ubuntu-based systems:
-        ```bash
-        sudo apt update
-        sudo apt install build-essential
-        ```
-    * On Fedora/RHEL-based systems:
-        ```bash
-        sudo dnf install gcc-c++
-        ```
-    * On Arch Linux:
-        ```bash
-        sudo pacman -S gcc
-        ```
+    ```bash
+    sudo apt install g++
+    ```
+    *Note: This command is primarily for Debian/Ubuntu-based systems. If you're on a different distribution (like Fedora, Arch, etc.), you might need a different command (e.g., `sudo dnf install gcc-c++` or `sudo pacman -S gcc`).*
 
 2.  **Clone this repository:**
     ```bash
     git clone [https://github.com/Joseph-Chierichella/J-Calc.cpp](https://github.com/Joseph-Chierichella/J-Calc.cpp)
     cd J-Calc.cpp/script
+    ```
+
+3.  **Compile and Run:**
+    ```bash
+    g++ J-Calc.cpp -o J-Calc
+    ./J-Calc
     ```
