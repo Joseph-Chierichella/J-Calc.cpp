@@ -1,4 +1,3 @@
-```
 # J-Calc.cpp
 
 ## 📖 Description
@@ -46,5 +45,3 @@ This project can be run on both **Windows** and **Linux**. Follow the appropriat
     git clone [https://github.com/Joseph-Chierichella/J-Calc.cpp](https://github.com/Joseph-Chierichella/J-Calc.cpp)
     cd J-Calc.cpp/script
     ```
-```
-
